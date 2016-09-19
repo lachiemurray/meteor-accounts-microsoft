@@ -14,7 +14,7 @@ Package.onUse(function(api) {
   // Export Accounts (etc) to packages using this one.
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('q42:microsoft@1.0.1', ['client', 'server']);
+  api.use('ghobbs:microsoft2', ['client', 'server']);
 
   api.addFiles(['client/login.js', 'client/login_button.css'], 'client');
   api.addFiles('lib/register.js');
